@@ -1,0 +1,126 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="MyStyle.css">
+    <title></title>
+</head>
+<body>
+    <div class="container container-fluid header  text-center ">
+        <h2 class=" p-5 ">Желіховський Олександр</h2>
+
+    </div>
+    <div class="container ">
+        <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+            <a class="navbar-brand" href="#">Навігація</a>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading1">Загальні дані</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading2">Проекти</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading3">Основні навички</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#scrollspyHeading4">Контакти</a>
+                </li>
+            </ul>
+        </nav>
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+            <h4 id="scrollspyHeading1">Загальні дані</h4>
+            <p>
+                <div class="container text-center border-bottom pb-5">
+                    <div class="row">
+                        <div class="col-sm-4"><img src="https://cdn.pixabay.com/photo/2016/03/27/22/22/fox-1284512__340.jpg" class="img-fluid" alt="..."></div>
+                        <div class="col-sm-8">
+                            <ul class="list-group text-start">
+                                <li class="list-group-item"><p>Адреса: м. Вінниця</p></li>
+                                <li class="list-group-item"><p>Освіта:ВНТУ</p></li>
+                                <li class="list-group-item"><p>Бажані вакансії: Full Stack developer, JS developer</p></li>
+                                <li class="list-group-item"><p>Мета: працювати за спеціальністю та створювати корисні програми, а також заробити трохи грошей)</p></li>
+                                <li class="list-group-item"><p>email: zhelihovskii.aleksandr@gmail.com</p></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </p>
+            <div id="scrollspyHeading2" class="row">
+                <h4>Проекти</h4>
+                <div class="col-sm pb-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="PR1.jpg" class="card-img-top" alt="tetris">
+                        <div class="card-body">
+                            <h5 class="card-title">Проект C++</h5>
+                            <p class="card-text">Гра "Тетріс"</p>
+                            <a href="https://github.com/OleksandrZhelihovskyi/TETRIS.git" class="btn btn-primary" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm pb-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="PR2.jpg" class="card-img-top" alt="Bootstrap">
+                        <div class="card-body">
+                            <h5 class="card-title">Проект на Bootstrap</h5>
+                            <p class="card-text">Проект сайту-візитки студента IT-Академії</p>
+                            <a href="https://github.com/OleksandrZhelihovskyi/Project-2-Bootstrap.git" class="btn btn-primary" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm pb-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="PR4.jpg" class="card-img-top" alt="Bootstrap">
+                        <div class="card-body">
+                            <h5 class="card-title">Проект який я хочу зробити</h5>
+                            <p class="card-text">
+                                Хочу розробити або прийняти участь в проекті по знаходженню маршрутів для навігації. Люблю вирішувати цікаві задачі
+                            </p>
+                            <a href="https://www.google.com/maps" class="btn btn-primary" target="_blank">Link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm pb-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="PR3.jpg" class="card-img-top" alt="Bootstrap">
+                        <div class="card-body">
+                            <h5 class="card-title">Проект який я хочу зробити</h5>
+                            <p class="card-text">Проект якісного інтернет-магазину по прикладу Amazon</p>
+                            <a href="https://www.amazon.com/" class="btn btn-primary">Link</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container skills">
+                <h4 id="scrollspyHeading3">Основні навички</h4>
+                <p><h3>Hard skills : HTML, JavaScript, CSS, Bootstrap, Git, MS Office</h3></p>
+                <p><h3>Soft skills: English - B1</h3></p>
+            </div>
+            
+            <h4 id="scrollspyHeading4">Зворотній зв'язок</h4>
+            <div class="input-group flex-nowrap">
+                <span class="input-group-text" id="addon-wrapping">@</span>
+                <input type="text" class="form-control" placeholder="Напішить ваш Email для зворотнього зв'язку" aria-label="Username" aria-describedby="addon-wrapping">
+                <button class="btn btn-outline-secondary" type="button" id="button-addon2">Надіслати</button>
+            </div>
+         
+        </div>
+    </div>
+    <footer >
+        <div class="container footer">
+            <p>Проект виконав: Желіховський Олександр</p>
+            <p><i class="bi bi-linkedin"></i>
+            <a class="link-opacity-75" href="https://www.linkedin.com/in/%D0%BE%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80-%D0%B6%D0%B5%D0%BB%D1%96%D1%85%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9-54b3a3269/" target="_blank">LinkedIn</a></p>
+           
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</body>
+
+</html>
